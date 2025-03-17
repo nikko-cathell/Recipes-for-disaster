@@ -4,13 +4,13 @@
 .outfit {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
   }
 
   .chau-philomene-one-regular {
     font-family: "Chau Philomene One", sans-serif;
-    font-weight: 400;
+    font-weight: 450;
     font-style: normal;
   }
   
@@ -77,141 +77,94 @@ header a {
     width: 100%;
 }
 
-/* NAVIGATION */
-nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* MAIN */
+main {
+    margin-top: 3%;
+}
+
+main img {
     width: 100%;
-    margin-top: 5%;
+    border-radius: 5px;
 }
 
 h2 {
+    margin-top: 2%;
     font-size: 1.9rem;
-    margin-bottom: 4%;
-}
-
-nav ul {
-    width: 100%;
-    padding: 2% 0%;
-    border-top: 3px var(--green) solid;
-}
-
-nav ul li {
-    list-style-type: none;
-    font-size: 1.5rem;
     text-align: center;
-    background-color: var(--green);
-    width: 96%;
-    padding: 2%;
-    margin-bottom: 8%;
-    border-radius: 5px;
-}
-
-nav ul a {
-    color: var(--dark-red);
-    text-decoration: none;
-}
-
-nav hr {
-    margin-top: -7.5%;
-    width: 100%;
-    border-top: 3px var(--green) solid;
-}
-
-/* MAIN */
-main {
-    margin-top: 15%;
-}
-
-main p {
-    background-color: var(--green);
-    padding: 1.5%;
-    border-radius: 5px;
-}
-
-main h2 {
-    margin-bottom: 0%;
-    margin-top: 15%;
-}
-
-.yellow {
-    border-top: 3px solid var(--yellow);
-}
-
-.red {
-    border-top: 3px solid var(--red);
 }
 
 .green {
     border-top: 3px solid var(--green);
 }
 
-.purple {
-    border-top: 3px solid var(--purple);
+.ingredients {
+    margin-top: 5%;
+    background-color: var(--yellow);
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.instructions {
+    margin-top: 5%;
+    background-color: var(--red);
+    padding: 3% 3% 5% 3%;
+    border-radius: 10px;
+}
+
+main section ul {
+    padding: 5%;
+}
+
+main section ol {
+    margin-top: 2%;
+    padding: 0.5% 7% 5%;
+    background-color: var(--light-yellow);
+    border-radius: 10px;
+    line-height: 37px;
+}
+
+main section ul li {
+    margin-top: 5%;
+    font-size: 1.25rem;
+    border-bottom: 2px solid #f5dfa2;
+    width: 100%;
+}
+
+main section ol li {
+    margin-top: 5%;
+    font-size: 1.25rem;
+    width: 100%;
+    border-bottom: 2px solid var(--red);
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
-.recipe-holder-dinner {
-    display: flex;
-    padding: 2%;
-    background-color: var(--yellow);
-    border-radius: 10px;
-    margin-top: 4%;
+.pull-up {
+    margin-bottom: -5%;
 }
 
-.recipe-holder-lunch {
-    display: flex;
-    padding: 2%;
-    background-color: var(--red);
-    border-radius: 10px;
-    margin-top: 4%;
-}
-
-.recipe-holder-breakfast {
-    display: flex;
-    padding: 2%;
+.notes {
     background-color: var(--green);
+    margin-top: 5%;
     border-radius: 10px;
-    margin-top: 4%;
+    padding: 3%;
+    
 }
 
-.recipe-holder-dessert {
-    display: flex;
-    padding: 2%;
-    background-color: var(--purple);
-    border-radius: 10px;
-    margin-top: 4%;
-}
-
-.recipe-profile {
-    width: 20%;
-    height: 20%;
-}
-
-.stars {
-    width: 18%;
-}
-
-.info {
-    align-self: flex-end;
-    margin-left: 2%;
-}
-
-main div a {
-    text-decoration: none;
-    color: var(--dark-red);
+main section p {
+    font-size: 1.1rem;
+    line-height: 30px;
+    margin-top: 2%;
 }
 
 /* FOOTER */
 footer {
     display: flex;
     justify-content: center;
-    margin-top: 15%;
-    background-color: var(--red);
+    margin-top: 10%;
+    background-color: var(--purple);
     padding: 10%;
     font-size: 1.3rem;
 }
