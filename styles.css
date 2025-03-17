@@ -102,13 +102,13 @@ nav ul li {
     font-size: 1.5rem;
     text-align: center;
     background-color: var(--green);
-    width: 96%;
-    padding: 2%;
     margin-bottom: 8%;
     border-radius: 5px;
+    padding: 1.5%;
 }
 
-nav ul a {
+nav ul li a {
+    width: fit-content;
     color: var(--dark-red);
     text-decoration: none;
 }
@@ -122,6 +122,15 @@ nav hr {
 /* MAIN */
 main {
     margin-top: 15%;
+}
+
+a {
+    color: var(--dark-red);
+    text-decoration: none;
+}
+
+main ul {
+    list-style-type: none;
 }
 
 main p {
@@ -161,6 +170,7 @@ h3 {
     background-color: var(--yellow);
     border-radius: 10px;
     margin-top: 4%;
+    box-shadow: 5px 5px 5px #9e8c5bb4;
 }
 
 .recipe-holder-lunch {
@@ -169,6 +179,7 @@ h3 {
     background-color: var(--red);
     border-radius: 10px;
     margin-top: 4%;
+    box-shadow: 5px 5px 5px #9e635bb4;
 }
 
 .recipe-holder-breakfast {
@@ -177,6 +188,7 @@ h3 {
     background-color: var(--green);
     border-radius: 10px;
     margin-top: 4%;
+    box-shadow: 5px 5px 5px #87b16bb4;
 }
 
 .recipe-holder-dessert {
@@ -185,6 +197,7 @@ h3 {
     background-color: var(--purple);
     border-radius: 10px;
     margin-top: 4%;
+    box-shadow: 5px 5px 5px #706bb1b4;
 }
 
 .recipe-profile {
@@ -204,6 +217,92 @@ h3 {
 main div a {
     text-decoration: none;
     color: var(--dark-red);
+}
+
+/* SEARCHBARS */
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    border-radius: 30px;
+    background-color: var(--yellow);
+    outline: 4px solid var(--yellow);
+    transition: background 0.25s;
+    margin: 4% 0%;
+}
+
+.search2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    border-radius: 30px;
+    background-color: var(--red);
+    outline: 4px solid var(--red);
+    transition: background 0.25s;
+    margin-bottom: 2%;
+}
+
+.search3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    border-radius: 30px;
+    background-color: var(--green);
+    outline: 4px solid var(--green);
+    transition: background 0.25s;
+    margin-bottom: 2%;
+}
+
+.search4 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    border-radius: 30px;
+    background-color: var(--purple);
+    outline: 4px solid var(--purple);
+    transition: background 0.25s;
+    margin-bottom: 2%;
+}
+
+.search:focus-within {
+    background-color: var(--light-yellow);
+}
+
+.search2:focus-within {
+    background-color: var(--light-yellow);
+}
+
+.search3:focus-within {
+    background-color: var(--light-yellow);
+}
+
+.search4:focus-within {
+    background-color: var(--light-yellow);
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1.2rem;
+    color: var(--dark-red);
+    padding: 1%;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.search-input::placeholder {
+    color: var(--dark-red); 
+}
+
+form {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
 }
 
 /* FOOTER */

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="styles.css">
+    <!-- GOOGLE ICONS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
     <title>Recipes For Disaster</title>
 </head>
 <body>
@@ -27,72 +29,129 @@
         </nav>
 
         <main>
-            <p class="outfit">Search...</p> <!-- Will later add javascript -->
+            <!-- Dinner Section -->
             <section>
                 <h2 class="chau-philomene-one-regular" id="dinner">Dinners</h2>
                 <hr class="yellow">
-                <div class="recipe-holder-dinner">
-                    <img src="assets/images/salmon-profile.png" alt="image placeholder" class="recipe-profile">
-                    <div class="info">
-                        <a href="recipe-pages/salmon.html"><h3 class="chau-philomene-one-regular">Sensational Salmon</h3></a>
-                        <img src="assets/images/star.png" alt="star" class="stars">
+                    <div class="search">
+                        <span class="material-symbols-outlined search-icon">search</span>
+                        <input class="search-input outfit" type="text" name="" id="find1" placeholder="Search..." onkeyup="search()">
                     </div>
-                </div>
-                <div class="recipe-holder-dinner">
-                    <img src="assets/images/placeholder.png" alt="image placeholder" class="recipe-profile">
-                    <div class="info">
-                        <h3 class="chau-philomene-one-regular">Recipe coming soon!</h3>
-                        <img src="assets/images/star.png" alt="star" class="stars">
-                        <img src="assets/images/star.png" alt="star" class="stars">
-                        <img src="assets/images/star.png" alt="star" class="stars">
-                    </div>
-                </div>
-                <div class="recipe-holder-dinner">
-                    <img src="assets/images/placeholder.png" alt="image placeholder" class="recipe-profile">
-                    <div class="info">
-                        <h3 class="chau-philomene-one-regular">Recipe coming soon!</h3>
-                        <img src="assets/images/star.png" alt="star" class="stars">
-                        <img src="assets/images/star.png" alt="star" class="stars">
-                        <img src="assets/images/star.png" alt="star" class="stars">
-                    </div>
-                </div>
 
+                <ul id="dinner-menu">
+                    <li>
+                        <a href="recipe-pages/salmon.html">
+                            <div class="recipe-holder-dinner dinner">
+                                <img src="assets/images/salmon-profile.png" alt="image placeholder" class="recipe-profile">
+                                <div class="info">
+                                    <h3 class="chau-philomene-one-regular">Sensational Salmon</h3>
+                                    <img src="assets/images/star.png" alt="star" class="stars">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="recipe-holder-dinner dinner">
+                                <img src="assets/images/placeholder.png" alt="image placeholder" class="recipe-profile">
+                                <div class="info">
+                                    <h3 class="chau-philomene-one-regular">Recipe 2 coming soon!</h3>
+                                    <img src="assets/images/star.png" alt="star" class="stars">
+                                    <img src="assets/images/star.png" alt="star" class="stars">
+                                    <img src="assets/images/star.png" alt="star" class="stars">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="recipe-holder-dinner dinner">
+                                <img src="assets/images/placeholder.png" alt="image placeholder" class="recipe-profile">
+                                <div class="info">
+                                    <h3 class="chau-philomene-one-regular">Recipe 3 coming soon!</h3>
+                                    <img src="assets/images/star.png" alt="star" class="stars">
+                                    <img src="assets/images/star.png" alt="star" class="stars">
+                                    <img src="assets/images/star.png" alt="star" class="stars">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                </section>
+
+                <!-- Lunch Section -->
                 <section>
                     <h2 class="chau-philomene-one-regular" id="lunch">Lunch</h2>
                     <hr class="red">
-                    <div class="recipe-holder-lunch">
-                        <img src="assets/images/placeholder.png" alt="image placeholder" class="recipe-profile">
-                        <div class="info">
-                            <h3 class="chau-philomene-one-regular">Recipe coming soon!</h3>
-                            <img src="assets/images/star.png" alt="star" class="stars">
-                            <img src="assets/images/star.png" alt="star" class="stars">
-                            <img src="assets/images/star.png" alt="star" class="stars">
+                    <form>
+                        <div class="search2">
+                            <span class="material-symbols-outlined search-icon">search</span>
+                            <input class="search-input outfit"  type="text" name="" id="find2" placeholder="Search..." onkeyup="search()">
                         </div>
-                    </div>
-                    <div class="recipe-holder-lunch">
-                        <img src="assets/images/placeholder.png" alt="image placeholder" class="recipe-profile">
-                        <div class="info">
-                            <h3 class="chau-philomene-one-regular">Recipe coming soon!</h3>
-                            <img src="assets/images/star.png" alt="star" class="stars">
-                            <img src="assets/images/star.png" alt="star" class="stars">
-                            <img src="assets/images/star.png" alt="star" class="stars">
-                        </div>
-                    </div>
-                    <div class="recipe-holder-lunch">
-                        <img src="assets/images/placeholder.png" alt="image placeholder" class="recipe-profile">
-                        <div class="info">
-                            <h3 class="chau-philomene-one-regular">Recipe coming soon!</h3>
-                            <img src="assets/images/star.png" alt="star" class="stars">
-                            <img src="assets/images/star.png" alt="star" class="stars">
-                            <img src="assets/images/star.png" alt="star" class="stars">
-                        </div>
-                    </div>
+                    </form>
+                    <ul id="lunch-menu">
+                        <li>
+                            <a href="#">
+                                <div class="recipe-holder-lunch lunch">
+                                    <img src="assets/images/placeholder.png" alt="image placeholder" class="recipe-profile">
+                                    <div class="info">
+                                        <h3 class="chau-philomene-one-regular">Recipe 1 coming soon!</h3>
+                                        <img src="assets/images/star.png" alt="star" class="stars">
+                                        <img src="assets/images/star.png" alt="star" class="stars">
+                                        <img src="assets/images/star.png" alt="star" class="stars">
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="recipe-holder-lunch lunch">
+                                    <img src="assets/images/placeholder.png" alt="image placeholder" class="recipe-profile">
+                                    <div class="info">
+                                        <h3 class="chau-philomene-one-regular">Recipe 2 coming soon!</h3>
+                                        <img src="assets/images/star.png" alt="star" class="stars">
+                                        <img src="assets/images/star.png" alt="star" class="stars">
+                                        <img src="assets/images/star.png" alt="star" class="stars">
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="recipe-holder-lunch">
+                                    <img src="assets/images/placeholder.png" alt="image placeholder" class="recipe-profile">
+                                    <div class="info">
+                                        <h3 class="chau-philomene-one-regular lunch">Recipe 3 coming soon!</h3>
+                                        <img src="assets/images/star.png" alt="star" class="stars">
+                                        <img src="assets/images/star.png" alt="star" class="stars">
+                                        <img src="assets/images/star.png" alt="star" class="stars">
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
                 </section>
 
+                <!-- Breakfast Section -->
                 <section>
                     <h2 class="chau-philomene-one-regular" id="breakfast">Breakfast</h2>
                     <hr class="green">
-                    <div class="recipe-holder-breakfast">
+                    <form>
+                        <div class="search3">
+                            <span class="material-symbols-outlined search-icon">search</span>
+                            <input class="search-input outfit" type="search" placeholder="Search...">
+                        </div>
+                    </form>
+                    <div class="recipe-holder-breakfast breakfast">
+                        <img src="assets/images/placeholder.png" alt="image placeholder" class="recipe-profile">
+                        <div class="info">
+                            <h3 class="chau-philomene-one-regular">Recipe coming soon!</h3>
+                            <img src="assets/images/star.png" alt="star" class="stars">
+                            <img src="assets/images/star.png" alt="star" class="stars">
+                            <img src="assets/images/star.png" alt="star" class="stars">
+                        </div>
+                    </div>
+                    <div class="recipe-holder-breakfast breakfast">
                         <img src="assets/images/placeholder.png" alt="image placeholder" class="recipe-profile">
                         <div class="info">
                             <h3 class="chau-philomene-one-regular">Recipe coming soon!</h3>
@@ -104,16 +163,7 @@
                     <div class="recipe-holder-breakfast">
                         <img src="assets/images/placeholder.png" alt="image placeholder" class="recipe-profile">
                         <div class="info">
-                            <h3 class="chau-philomene-one-regular">Recipe coming soon!</h3>
-                            <img src="assets/images/star.png" alt="star" class="stars">
-                            <img src="assets/images/star.png" alt="star" class="stars">
-                            <img src="assets/images/star.png" alt="star" class="stars">
-                        </div>
-                    </div>
-                    <div class="recipe-holder-breakfast">
-                        <img src="assets/images/placeholder.png" alt="image placeholder" class="recipe-profile">
-                        <div class="info">
-                            <h3 class="chau-philomene-one-regular">Recipe coming soon!</h3>
+                            <h3 class="chau-philomene-one-regular breakfast">Recipe coming soon!</h3>
                             <img src="assets/images/star.png" alt="star" class="stars">
                             <img src="assets/images/star.png" alt="star" class="stars">
                             <img src="assets/images/star.png" alt="star" class="stars">
@@ -121,10 +171,17 @@
                     </div>
                 </section>
 
+                <!-- Dessert Section -->
                 <section>
                     <h2 class="chau-philomene-one-regular" id="desserts">Dessert</h2>
                     <hr class="purple">
-                    <div class="recipe-holder-dessert">
+                    <form>
+                        <div class="search4">
+                            <span class="material-symbols-outlined search-icon">search</span>
+                            <input class="search-input outfit" type="search" placeholder="Search...">
+                        </div>
+                    </form>
+                    <div class="recipe-holder-dessert dessert">
                         <img src="assets/images/placeholder.png" alt="image placeholder" class="recipe-profile">
                         <div class="info">
                             <h3 class="chau-philomene-one-regular">Recipe coming soon!</h3>
@@ -133,7 +190,7 @@
                             <img src="assets/images/star.png" alt="star" class="stars">
                         </div>
                     </div>
-                    <div class="recipe-holder-dessert">
+                    <div class="recipe-holder-dessert dessert">
                         <img src="assets/images/placeholder.png" alt="image placeholder" class="recipe-profile">
                         <div class="info">
                             <h3 class="chau-philomene-one-regular">Recipe coming soon!</h3>
@@ -142,7 +199,7 @@
                             <img src="assets/images/star.png" alt="star" class="stars">
                         </div>
                     </div>
-                    <div class="recipe-holder-dessert">
+                    <div class="recipe-holder-dessert dessert">
                         <img src="assets/images/placeholder.png" alt="image placeholder" class="recipe-profile">
                         <div class="info">
                             <h3 class="chau-philomene-one-regular">Recipe coming soon!</h3>
@@ -152,12 +209,12 @@
                         </div>
                     </div>
                 </section>
-
-                
         </main>
     </div>
     <footer>
         <a href="index.html"><h4 class="outfit">Back to top</h4></a>
     </footer>
+    <!-- Javascript -->
+     <script src="scripts/search.js"></script>
 </body>
 </html>
