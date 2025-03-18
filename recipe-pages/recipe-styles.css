@@ -121,6 +121,10 @@ main section ul {
     margin-top: -4%;
 }
 
+main ul li a {
+    color: var(--red)
+}
+
 main section ol {
     margin-top: 2%;
     padding: 0.5% 7% 5% 10%;

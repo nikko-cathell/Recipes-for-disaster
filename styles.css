@@ -143,8 +143,25 @@ h2 {
     margin-bottom: 4%;
 }
 
+h4 {
+    font-size: 1.5rem;
+    padding: 2%;
+}
+
+#difficulty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    align-self: center;
+    border-bottom: 3px solid var(--green);
+}
+
 main {
+    display: flex;
+    flex-direction: column;
     margin-top: 15%;
+    width: 100%;
 }
 
 a {
@@ -357,4 +374,6 @@ footer {
 footer a {
     text-decoration: none;
     color: var(--dark-red);
+    width: 100%;
+    text-align: center;
 }
