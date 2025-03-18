@@ -171,6 +171,11 @@ h3 {
     border-radius: 10px;
     margin-top: 4%;
     box-shadow: 5px 5px 5px #9e8c5bb4;
+    transition-duration: 0.4s;
+}
+
+.recipe-holder-dinner:hover {
+    transform: scale(1.04);
 }
 
 .recipe-holder-lunch {
@@ -180,6 +185,11 @@ h3 {
     border-radius: 10px;
     margin-top: 4%;
     box-shadow: 5px 5px 5px #9e635bb4;
+    transition-duration: 0.4s;
+}
+
+.recipe-holder-lunch:hover {
+    transform: scale(1.04);
 }
 
 .recipe-holder-breakfast {
@@ -189,6 +199,11 @@ h3 {
     border-radius: 10px;
     margin-top: 4%;
     box-shadow: 5px 5px 5px #87b16bb4;
+    transition-duration: 0.4s;
+}
+
+.recipe-holder-breakfast:hover {
+    transform: scale(1.04);
 }
 
 .recipe-holder-dessert {
@@ -198,6 +213,11 @@ h3 {
     border-radius: 10px;
     margin-top: 4%;
     box-shadow: 5px 5px 5px #706bb1b4;
+    transition-duration: 0.4s;
+}
+
+.recipe-holder-dessert:hover {
+    transform: scale(1.04);
 }
 
 .recipe-profile {
@@ -227,7 +247,6 @@ main div a {
     padding: 1%;
     border-radius: 30px;
     background-color: var(--yellow);
-    outline: 4px solid var(--yellow);
     transition: background 0.25s;
     margin: 4% 0%;
 }
@@ -239,7 +258,6 @@ main div a {
     padding: 1%;
     border-radius: 30px;
     background-color: var(--red);
-    outline: 4px solid var(--red);
     transition: background 0.25s;
     margin-bottom: 2%;
 }
@@ -251,7 +269,6 @@ main div a {
     padding: 1%;
     border-radius: 30px;
     background-color: var(--green);
-    outline: 4px solid var(--green);
     transition: background 0.25s;
     margin-bottom: 2%;
 }
@@ -263,7 +280,6 @@ main div a {
     padding: 1%;
     border-radius: 30px;
     background-color: var(--purple);
-    outline: 4px solid var(--purple);
     transition: background 0.25s;
     margin-bottom: 2%;
 }
