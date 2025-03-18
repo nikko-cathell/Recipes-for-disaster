@@ -6,6 +6,7 @@
     <link type="text/css" rel="stylesheet" href="styles.css">
     <!-- GOOGLE ICONS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+    
     <title>Recipes For Disaster</title>
 </head>
 <body>
@@ -18,14 +19,16 @@
         </header>
 
         <nav>
-            <h2 class="chau-philomene-one-regular">Jump To</h2>
-            <ul class="outfit">
-                <li><a href="#dinner">Dinners</a></li>
-                <li><a href="#lunch">Lunches</a></li>
-                <li><a href="#breakfast">Breakfast</a></li>
-                <li><a href="#desserts">Desserts</a></li>
-            </ul>
-            <hr>
+            <div class="outfit">
+                <button onclick="dropdown()" class="dropbtn chau-philomene-one-regular">Jump Menu</button>
+                <hr class="green margin-top">
+                <div id="dropdown" class="dropdown-content">
+                    <a href="#dinner"><p>Dinners</p></a>
+                    <a href="#lunch"><p>Lunches</p></a>
+                    <a href="#breakfast"><p>Breakfasts</p></a>
+                    <a href="#desserts"><p class="no-border">Desserts</p></a>
+                </div>
+            </div>
         </nav>
 
         <main>
@@ -249,5 +252,6 @@
      <script src="scripts/search2.js" type="text/javascript"></script>
      <script src="scripts/search3.js" type="text/javascript"></script>
      <script src="scripts/search4.js" type="text/javascript"></script>
+     <script src="scripts/dropdown.js"></script>
 </body>
 </html>
