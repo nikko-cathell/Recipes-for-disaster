@@ -117,6 +117,10 @@ main section ul {
     padding: 5% 7% 5% 10%;
 }
 
+.less-margin {
+    margin-top: -4%;
+}
+
 main section ol {
     margin-top: 2%;
     padding: 0.5% 7% 5% 10%;
