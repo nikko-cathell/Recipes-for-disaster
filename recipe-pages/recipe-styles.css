@@ -173,6 +173,28 @@ main section p {
     padding: 2%;
 }
 
+.overline {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: 3px solid hsl(97, 58%, 79%);
+    border-radius: 0;
+}
+
+.notes-list {
+    margin-top: -10%;
+    border-bottom: 3px solid hsl(97, 58%, 79%);
+}
+
+.notes-list-item {
+    border: none;
+}
+
+.notes-list a {
+    font-size: 1.1rem;
+    color: var(--dark-red);
+}
+
 /* FOOTER */
 footer {
     display: flex;
